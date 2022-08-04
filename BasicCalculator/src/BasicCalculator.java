@@ -1,6 +1,5 @@
 import java.util.Scanner;
-public class Main {
-
+public class BasicCalculator {
     public static void main(String[] args) {
 
         Scanner keyboard = new Scanner(System.in);
@@ -50,17 +49,9 @@ public class Main {
                 division = num1/num2;
                 System.out.println("Result = " + division);
                 break;
-                default:
-                    System.out.println("invalid character");
+            default:
+                System.out.println("invalid character");
 
         }
-
-
-
-
-
-
-
-
     }
 }
